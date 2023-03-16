@@ -1,0 +1,9 @@
+2023-02-06 18:19:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'16.51 cm (6.5"") LSuper Retina XDR Display | Face ID\\000d\\000a4 GB RAM | 256 G... (269)"; SQL statement:
+insert into product (prize, category_id, description, image_name, name, weight, product_id) values (?, ?, ?, ?, ?, ?, ?) [22001-214]
+2023-02-06 18:21:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'16.51 cm (6.5"") LSuper Retina XDR Display | Face ID\\000d\\000a4 GB RAM | 256 G... (269)"; SQL statement:
+insert into product (prize, category_id, description, image_name, name, weight, product_id) values (?, ?, ?, ?, ?, ?, ?) [22001-214]
+2023-02-06 18:21:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "DESCRIPTION CHARACTER VARYING(255)": "U&'16.51 cm (6.5"") LSuper Retina XDR Display | Face ID\\000d\\000a4 GB RAM | 256 G... (269)"; SQL statement:
+insert into product (prize, category_id, description, image_name, name, weight, product_id) values (?, ?, ?, ?, ?, ?, ?) [22001-214]

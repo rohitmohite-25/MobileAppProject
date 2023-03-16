@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html lang="en" xmlns:th="http://www.thymeleaf.org"></html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QR_CODE</title>
+        <style>
+            .head{
+
+        border: 3px;
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        margin: auto;
+        margin-top: 150px;
+        box-shadow: 2px 2px 20px #2a12f2;
+    }
+
+
+
+
+        </style>
+    </head>
+    <body>
+
+    <div class="head">
+
+        <!-- <b style="text-align: center; margin-left: 10%; font-size: 20px;">Scan the qr code and make a Payment</b> -->
+        <!-- <img src="../static/invoiceAndQr/QR.png" alt=""> -->
+
+        <img th:src="@{/invoiceAndQr/QR.png}"  src="../static/invoiceAndQr/QR.png" alt="QR_CODE">
+
+
+
+        <button onclick="qrcode1()">Generate QR-CODE</button>
+        <button onclick="qrcode2()">PROMPT BOX</button>
+        <button onclick="qrcode3()">PROMPT BOX</button>
+
+
+    </div>
+
+
+
+    <script>
+          function qrcode1(){
+            window.alert("QR code Generated Sucessfully!")
+          }
+          function qrcode2(){
+            window.prompt("This is the Prompt Box")
+          }
+          function qrcode3(){
+            window.confirm("This is the cofirmation box!!!")
+          }
+        </script>
+
+    </body>
+    </html>
